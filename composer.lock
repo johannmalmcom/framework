@@ -1,0 +1,117 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "6a7b7d9817cf6f009caf7a3eb514d1e4",
+    "packages": [
+        {
+            "name": "johannmalmcom/database",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/johannmalmcom/database.git",
+                "reference": "3f2b7d04004a074fe6cc0e945d5fad88450dad7a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/johannmalmcom/database/zipball/3f2b7d04004a074fe6cc0e945d5fad88450dad7a",
+                "reference": "3f2b7d04004a074fe6cc0e945d5fad88450dad7a",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Database\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Johann Malm",
+                    "email": "hej@johannmalm.com"
+                }
+            ],
+            "description": "A class that halp you to handle the database",
+            "time": "2020-03-12T11:12:02+00:00"
+        },
+        {
+            "name": "johannmalmcom/router",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/johannmalmcom/router.git",
+                "reference": "03d13e415db82f850669c36de7fc2e18b75b0212"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/johannmalmcom/router/zipball/03d13e415db82f850669c36de7fc2e18b75b0212",
+                "reference": "03d13e415db82f850669c36de7fc2e18b75b0212",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Router\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Johann Malm",
+                    "email": "hej@johannmalm.com"
+                }
+            ],
+            "description": "A simple router for rest API:s and web servers",
+            "time": "2020-03-16T12:58:30+00:00"
+        },
+        {
+            "name": "johannmalmcom/ui",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/johannmalmcom/ui.git",
+                "reference": "61a340c7dea387ec0e2f3aaefd8a4c3ffb06c578"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/johannmalmcom/ui/zipball/61a340c7dea387ec0e2f3aaefd8a4c3ffb06c578",
+                "reference": "61a340c7dea387ec0e2f3aaefd8a4c3ffb06c578",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "UI\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Johann Malm",
+                    "email": "hej@johannmalm.com"
+                }
+            ],
+            "description": "A tag library for creating an UI faster",
+            "time": "2020-03-16T11:41:24+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

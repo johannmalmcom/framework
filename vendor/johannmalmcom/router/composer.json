@@ -1,0 +1,19 @@
+{
+    "name": "johannmalmcom/router",
+    "description": "A simple router for rest API:s and web servers",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Johann Malm",
+            "email": "hej@johannmalm.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Router\\": "src/"
+        }
+    }
+}

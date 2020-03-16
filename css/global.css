@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+2&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo 2', sans-serif;
+}
+
+.centerBox {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.centerBox h1 {
+    font-size: 5rem;
+}
+
+.centerBox p {
+    font-size: 2rem;
+}
+
+.centerBox a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.links {
+    font-size: 3rem;
+}
+
+.links a {
+    margin-left: .5rem;
+    margin-right: .5rem;
+    font-size: 3rem;
+    text-decoration: underline;
+}

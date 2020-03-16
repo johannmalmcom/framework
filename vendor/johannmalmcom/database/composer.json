@@ -1,0 +1,19 @@
+{
+    "name": "johannmalmcom/database",
+    "description": "A class that halp you to handle the database",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Johann Malm",
+            "email": "hej@johannmalm.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Database\\": "src/"
+        }
+    }
+}
